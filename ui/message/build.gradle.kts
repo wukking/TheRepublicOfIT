@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.wuyson.google.guide"
+    namespace = "com.wuyson.ui.message"
     compileSdk = 34
 
     defaultConfig {

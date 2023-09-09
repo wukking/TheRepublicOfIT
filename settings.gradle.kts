@@ -10,6 +10,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven("https://jitpack.io")
     }
 }
 
@@ -30,3 +31,8 @@ if (modules.isNotEmpty()){
         project(name).projectDir = File(settingsDir,parentPath+"/"+name.substring(1,name.length))
     }
 }
+include(":ui")
+include(":ui:home")
+include(":ui:community")
+include(":ui:message")
+include(":ui:my")

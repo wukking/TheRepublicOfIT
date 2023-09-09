@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/google_guide_navigation"
+    app:startDestination="@id/GuideHomeFragment">
+
+    <fragment
+        android:id="@+id/GuideHomeFragment"
+        android:name="com.wuyson.google.guide.ui.home.GuideHomeFragment"
+        android:label="Guide Home"
+        tools:layout="@layout/guide_fragment_home" />
+
+</navigation>

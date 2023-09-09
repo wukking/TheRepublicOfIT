@@ -33,9 +33,19 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
+    buildFeatures{
+        viewBinding = true
+    }
 }
 
 dependencies {
+
+    api(project(":core-common"))
+    api(project(":ui:home"))
+    api(project(":ui:community"))
+    api(project(":ui:message"))
+    api(project(":ui:my"))
 
     implementation("androidx.core:core-ktx:1.10.1")
     implementation("androidx.appcompat:appcompat:1.6.1")
